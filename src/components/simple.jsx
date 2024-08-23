@@ -19,6 +19,7 @@ const ExampleWrapper = () => {
 
 const SpringModal = ({ isOpen, setIsOpen }) => {
   return (
+    
     <AnimatePresence>
       {isOpen && (
         <motion.div
@@ -43,6 +44,7 @@ const SpringModal = ({ isOpen, setIsOpen }) => {
               <h3 className="text-3xl font-bold text-center mb-2">
                 One more thing!
               </h3>
+              <span></span>
               <p className="text-center mb-6">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
                 aperiam vitae, sapiente ducimus eveniet in velit.

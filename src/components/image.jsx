@@ -203,3 +203,4 @@ const ScheduleItem = ({ title, date, location }) => {
     </motion.div>
   );
 };
+
